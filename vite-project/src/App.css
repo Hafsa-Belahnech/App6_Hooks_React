@@ -1,0 +1,96 @@
+/* Design Moderne Global */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: #0e6ba9a7;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+#root { width: 100%; max-width: 800px; }
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 40px;
+  font-size: 2.2rem;
+}
+
+/* Style des Sections */
+h2 {
+  font-size: 1.1rem;
+  color: #646cff;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border-left: 4px solid #646cff;
+  padding-left: 15px;
+}
+
+/* Conteneur pour chaque partie */
+div > div, section {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  margin-bottom: 20px;
+}
+
+/* Style des Boutons */
+button {
+  background-color: #646cff;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  margin: 5px;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  background-color: #535bf2;
+  transform: translateY(-2px);
+}
+
+/* Style des Inputs */
+input {
+  padding: 12px;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  outline: none;
+  width: 250px;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  border-color: #646cff;
+}
+
+/* Style de la Liste d'Articles */
+ul {
+  list-style: none;
+  padding: 0;
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid #eee;
+  border-radius: 8px;
+}
+
+li {
+  padding: 12px;
+  border-bottom: 1px solid #f0f0f0;
+  font-size: 0.95rem;
+}
+
+li:last-child { border-bottom: none; }
+li:nth-child(even) { background-color: #fafafa; }
+
+/* Timer et Compteurs */
+p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #2c3e50;
+}
